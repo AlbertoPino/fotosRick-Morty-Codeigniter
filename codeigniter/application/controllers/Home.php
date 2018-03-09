@@ -16,7 +16,8 @@ class Home extends CI_Controller {
 
 	//para pillar datos de la base de datos
 	$data['images'] = $this->home_model->get_images();
-	
+	$data['images_flick'] = $this->home_model->get_img_flick();
+
 	//carga la vista y pasa datos
 	$this->load->view('home_view', $data);
    	}

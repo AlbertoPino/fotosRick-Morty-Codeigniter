@@ -14,6 +14,14 @@
         <?php endforeach; ?>
 	</ul>
   </div>
+  <div class="galeria" >
+        <ul>
+        <?php for($images_flick = 0; $images_flick < 10; $images_flick++ ){ ?>
+            <li><img height="100" width="100" <?php echo $images_flick; ?>" /><$
+        <?php } ?>
+        </ul>
+  </div>
+
  </body>
 
 </html>
